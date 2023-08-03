@@ -17,6 +17,6 @@ Integer is an number that represents from `-Infinity to +Infinity`
 - [x] number = 10 :arrow_right: string = str(number) `// "10"`
 
 > Convert from float to integer
-- [x] floatNumber = 10.5 :arrow_right: number = int(floatNumber)
-- [x] number = 10 :arrow_right: floatNumber = float(number)
+- [x] floatNumber = 10.5 :arrow_right: number = int(floatNumber) `// 10`
+- [x] number = 10 :arrow_right: floatNumber = float(number) `// 10.0`
 
