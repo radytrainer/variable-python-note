@@ -11,5 +11,12 @@ Integer is an number that represents from `-Infinity to +Infinity`
 - [x] numberOfCar = 100
 #### Integer conversion
 <i>Example: </i>
+> Convert from string to integer
 - [x] string = "10" :arrow_right: number = int(string)
 - [x] string = "A" :arrow_right: `ValueError: invalid literal for int() with base 10: 'A'`
+- [x] number = 10 :arrow_right: string = str(number)
+
+> Convert from float to integer
+- [x] floatNumber = 10.5 :arrow_right: number = int(floatNumber)
+- [x] number = 10 :arrow_right: floatNumber = float(number)
+
