@@ -1,11 +1,13 @@
 ## Variable in Python
 
-#### 1. Integer
+### 1. Integer
 Integer is an number that represents from `-Infinity to +Infinity`
 
 <i>Example: </i>
-- positiveNumber = 10
-- negativeNumber = -9
-- age = 30
-- numberOfStudent = 25
-- numberOfCar = 100
+- [x] positiveNumber = 10
+- [x] negativeNumber = -9
+- [x] age = 30
+- [x] numberOfStudent = 25
+- [x] numberOfCar = 100
+#### Integer conversion
+- [x] string = "10" :arrow_right: number = int(string)
