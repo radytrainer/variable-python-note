@@ -12,9 +12,9 @@ Integer is an number that represents from `-Infinity to +Infinity`
 #### Integer conversion
 <i>Example: </i>
 > Convert from string to integer
-- [x] string = "10" :arrow_right: number = int(string)
+- [x] string = "10" :arrow_right: number = int(string) `// 10`
 - [x] string = "A" :arrow_right: `ValueError: invalid literal for int() with base 10: 'A'`
-- [x] number = 10 :arrow_right: string = str(number)
+- [x] number = 10 :arrow_right: string = str(number) `// "10"`
 
 > Convert from float to integer
 - [x] floatNumber = 10.5 :arrow_right: number = int(floatNumber)
