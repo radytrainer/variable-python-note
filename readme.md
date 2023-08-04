@@ -52,6 +52,26 @@ String is a collection of alphabets, words or other characters. String represent
 ##### `True` case in boolean:
 - [x] floatNumber = 10.5 :arrow_right: isBool = bool(floatNumber) `// True`
 - [x] number = 10 :arrow_right: isBool = bool(number) `// True`
+- [x] number = -2 :arrow_right: isBool = bool(number) `// True`
 - [x] string = " " :arrow_right: isBool = bool(string) `// True`
 - [x] string = "hello" :arrow_right: isBool = bool(string) `// True`
-
+- [x] 10 > 5 :arrow_right: `// True`
+- [x] 12 >= 12 :arrow_right: `// True`
+- [x] 3 < 4 :arrow_right: `// True`
+- [x] 4 <= 4 :arrow_right: `// True`
+- [x] not False :arrow_right: `// True`
+- [x] 5 == 5 :arrow_right: `// True`
+- [x] 4 != 5 :arrow_right: `// True`
+##### `False` case in boolean:
+- [x] floatNumber = 0.0 :arrow_right: isBool = bool(floatNumber) `// False`
+- [x] number = 0 :arrow_right: isBool = bool(number) `// False`
+- [x] string = "" :arrow_right: isBool = bool(string) `// False`
+- [x] 10 < 5 :arrow_right: `// False`
+- [x] 12 < 12 :arrow_right: `// False`
+- [x] 12 <= 2 :arrow_right: `// False`
+- [x] 3 >= 4 :arrow_right: `// False`
+- [x] 4 > 4 :arrow_right: `// False`
+- [x] 2 > 4 :arrow_right: `// False`
+- [x] not True :arrow_right: `// False`
+- [x] 5 == 6 :arrow_right: `// False`
+- [x] 5 != 5 :arrow_right: `// False`
