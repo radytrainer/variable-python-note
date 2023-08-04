@@ -49,7 +49,7 @@ String is a collection of alphabets, words or other characters. String represent
 #### Boolean conversion
 > Convert integer, float and string to boolean
 
-##### `True` case in boolean:
+##### `True` case in boolean example:
 - [x] floatNumber = 10.5 :arrow_right: isBool = bool(floatNumber) `// True`
 - [x] number = 10 :arrow_right: isBool = bool(number) `// True`
 - [x] number = -2 :arrow_right: isBool = bool(number) `// True`
@@ -62,7 +62,7 @@ String is a collection of alphabets, words or other characters. String represent
 - [x] not False :arrow_right: `// True`
 - [x] 5 == 5 :arrow_right: `// True`
 - [x] 4 != 5 :arrow_right: `// True`
-##### `False` case in boolean:
+##### `False` case in boolean example:
 - [x] floatNumber = 0.0 :arrow_right: isBool = bool(floatNumber) `// False`
 - [x] number = 0 :arrow_right: isBool = bool(number) `// False`
 - [x] string = "" :arrow_right: isBool = bool(string) `// False`
@@ -75,3 +75,18 @@ String is a collection of alphabets, words or other characters. String represent
 - [x] not True :arrow_right: `// False`
 - [x] 5 == 6 :arrow_right: `// False`
 - [x] 5 != 5 :arrow_right: `// False`
+
+### 4. Float
+Floating point numbers are decimal values or fractional numbers like `133.5, 2897.11, and 3571.213`
+<i>Example: </i>
+- [x] scoreAvg = 10.5
+- [x] money = 1.6
+
+#### Float conversion
+> Convert integer, string and boolean to boolean
+
+- [x] string = "10" :arrow_right: floatNumber = float(string) `// 10.0`
+- [x] number = 10 :arrow_right: floatNumber = float(number) `// 10.0`
+- [x] isBoolean = True :arrow_right: floatNumber = float(isBoolean) `// 1.0`
+- [x] isBoolean = False :arrow_right: floatNumber = float(isBoolean) `// 0.0`
+
