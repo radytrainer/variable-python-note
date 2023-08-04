@@ -11,12 +11,22 @@ Integer is an number that represents from `-Infinity to +Infinity`
 - [x] numberOfCar = 100
 #### Integer conversion
 <i>Example: </i>
-> Convert from string to integer
+> Convert  string, float and boolean to integer
 - [x] string = "10" :arrow_right: number = int(string) `// 10`
 - [x] string = "A" :arrow_right: `ValueError: invalid literal for int() with base 10: 'A'`
-- [x] number = 10 :arrow_right: string = str(number) `// "10"`
-
-> Convert from float to integer
 - [x] floatNumber = 10.5 :arrow_right: number = int(floatNumber) `// 10`
-- [x] number = 10 :arrow_right: floatNumber = float(number) `// 10.0`
+- [x] number = 10 :arrow_right: string = str(number) `// "10"`
+- [x] isBoolean = True :arrow_right: number = int(isBoolean) `//1`
+- [x] isBoolean = False :arrow_right: number = int(isBoolean) `//0`
+
+#### String
+String is a collection of alphabets, words or other characters. String represent in double quote `" "` or single quote `' '`
+
+<i>Example: </i>
+- [x] firstName = "Rady"
+- [x] lastName = "Y"
+- [x] schoolName = 'PNC'
+- [x] studentName = 'Bopha'
+- [x] text = "Hello world"
+
 
