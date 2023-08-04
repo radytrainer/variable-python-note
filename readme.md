@@ -21,6 +21,7 @@ Integer is an number that represents from `-Infinity to +Infinity`
 ### 2. String
 String is a collection of alphabets, words or other characters. String represent in double quote `" "` or single quote `' '`
 
+<i>Example: </i>
 - [x] firstName = "Rady"
 - [x] lastName = "Y"
 - [x] schoolName = 'PNC'
@@ -36,12 +37,21 @@ String is a collection of alphabets, words or other characters. String represent
 - [x] isBoolean = False :arrow_right: string = string(isBoolean) `// "False"`
 
 
-#### Boolean
- Boolean variable can have only two values - `True` or `False`. 
+### 3. Boolean
+ Boolean variable can have only two values - `True` or `False`. Boolean values mostly happen in comparisons `>, <, >=, <=, not, ==, !=`
 
 <i>Example: </i>
 - [x] isFound = True
 - [x] isLetterA = False
 - [x] hasA = True
+- [x] isGreaterThan = 10 > 10 `// False`
+- [x] iEqualTo = 10 == 10  `// True`
+#### Boolean conversion
+> Convert integer, float and string to boolean
 
+##### `True` case in boolean:
+- [x] floatNumber = 10.5 :arrow_right: isBool = bool(floatNumber) `// True`
+- [x] number = 10 :arrow_right: isBool = bool(number) `// True`
+- [x] string = " " :arrow_right: isBool = bool(string) `// True`
+- [x] string = "hello" :arrow_right: isBool = bool(string) `// True`
 
