@@ -12,9 +12,8 @@ Integer is an number that represents from `-Infinity to +Infinity`
 #### Integer conversion
 > Convert  string, float and boolean to integer
 - [x] string = "10" :arrow_right: number = int(string) `// 10`
-- [x] string = "A" :arrow_right: `ValueError: invalid literal for int() with base 10: 'A'`
+- [x] string = "A" :arrow_right: number = int(string) `ValueError: invalid literal for int() with base 10: 'A'`
 - [x] floatNumber = 10.5 :arrow_right: number = int(floatNumber) `// 10`
-- [x] number = 10 :arrow_right: string = str(number) `// "10"`
 - [x] isBoolean = True :arrow_right: number = int(isBoolean) `//1`
 - [x] isBoolean = False :arrow_right: number = int(isBoolean) `//0`
 
@@ -86,6 +85,7 @@ Floating point numbers are decimal values or fractional numbers like `133.5, 289
 > Convert integer, string and boolean to boolean
 
 - [x] string = "10" :arrow_right: floatNumber = float(string) `// 10.0`
+- [x] string = "A" :arrow_right: floatNumber = float(string) `ValueError: could not convert string to float: 'A'`
 - [x] number = 10 :arrow_right: floatNumber = float(number) `// 10.0`
 - [x] isBoolean = True :arrow_right: floatNumber = float(isBoolean) `// 1.0`
 - [x] isBoolean = False :arrow_right: floatNumber = float(isBoolean) `// 0.0`
