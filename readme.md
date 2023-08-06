@@ -90,3 +90,17 @@ Floating point numbers are decimal values or fractional numbers like `133.5, 289
 - [x] isBoolean = True :arrow_right: floatNumber = float(isBoolean) `// 1.0`
 - [x] isBoolean = False :arrow_right: floatNumber = float(isBoolean) `// 0.0`
 
+### 5. `ERROR` Messages in Python with varaible
+
+- [x] string = "B" :arrow_right: number = int(string) `// ValueError: invalid literal for int() with base 10: 'B'`
+- [x] string = "C" :arrow_right: floatNumber = float(string) `// ValueError: could not convert string to float: 'C'`
+- [x] sum = 10 + "A"  `// TypeError: unsupported operand type(s) for +: 'int' and 'str'`
+- [x] sum = 5.6 + "A"  `// TypeError: unsupported operand type(s) for +: 'float' and 'str'`
+
+### 6. `Sum` number and `concat` string value
+
+- [x] string = "a"  + "b" `// ab`
+- [x] number = 10 + 5 `// 15`
+- [x] floatNumber = 10.5 + 10 `// 20.5`
+
+# Thank you
