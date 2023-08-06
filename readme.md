@@ -32,8 +32,8 @@ String is a collection of alphabets, words or other characters. String represent
 
 - [x] floatNumber = 10.5 :arrow_right: string = str(floatNumber) `// "10.5"`
 - [x] number = 10 :arrow_right: string = str(number) `// "10"`
-- [x] isBoolean = True :arrow_right: string = string(isBoolean) `// "True"`
-- [x] isBoolean = False :arrow_right: string = string(isBoolean) `// "False"`
+- [x] isBoolean = True :arrow_right: string = str(isBoolean) `// "True"`
+- [x] isBoolean = False :arrow_right: string = str(isBoolean) `// "False"`
 
 
 ### 3. Boolean
